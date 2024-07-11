@@ -15,8 +15,12 @@ public class EvenFibonacciNumbers{
 	 * Arraylist containing all even numbers of fibonacci sequence less than 4 million
 	 */
 	ArrayList<Integer> evenFib = new ArrayList<>();
+	// Tests the upper bound of the addFibonacciNumbers() method.
 	int limit;
 
+	/**
+	 * 
+	 */
 	public void addFibonacciNumbers(){
 		int a = 1;
 		int b = 1;
