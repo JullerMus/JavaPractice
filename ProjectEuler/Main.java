@@ -10,7 +10,8 @@ public class Main{
 		//System.out.println(mult.sumListOfMultiples());
 		fibo.addFibonacciNumbers();
 		fibo.fillEvenFib();
-		System.out.println(fibo.sumEvenFib());
+		fibo.sumEvenFib();
+
 
 
 	}

@@ -47,12 +47,13 @@ public class EvenFibonacciNumbers{
 		System.out.println("Size of evens fibanacci arraylist: " + evenFib.size());
 	}
 
-	public int sumEvenFib(){
+
+	public void sumEvenFib(){
 		int evenSum = 0;
 		for(Integer i : evenFib){
 			evenSum = evenSum + i;
 		}
-		return evenSum;
+		System.out.println("Sum of even Fibonacci numbers: " + evenSum);
 	}
 
 }
