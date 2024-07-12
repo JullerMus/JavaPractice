@@ -6,9 +6,7 @@ public class Main{
 		EvenFibonacciNumbers fibo = new EvenFibonacciNumbers();
 		LargestPrimeFactor larg = new LargestPrimeFactor();
 		LargestPalindromeProduct lp = new LargestPalindromeProduct();
-		//mult.fetchMultiples();
-
-		//larg.findPrime(600851475143.0); //Printer de primtal der går op i input.
-		lp.fillPalindromeList();
+		SmallestMultiple sm = new SmallestMultiple();
+		sm.findSmallestMultiple(20);
 	}
 }
