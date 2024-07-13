@@ -7,6 +7,8 @@ public class Main{
 		LargestPrimeFactor larg = new LargestPrimeFactor();
 		LargestPalindromeProduct lp = new LargestPalindromeProduct();
 		SmallestMultiple sm = new SmallestMultiple();
-		sm.findSmallestMultiple(20);
+		Problems problems = new Problems();
+
+
 	}
 }
